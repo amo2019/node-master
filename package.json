@@ -1,0 +1,24 @@
+{
+  "name": "pizza-store",
+  "version": "1.0.0",
+  "description": "Node.js Master with no frameworks and no dependencies",
+  "main": "index.js",
+  "devDependencies": {
+    "cors": "^2.8.5",
+    "nodemon": "^2.0.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": "15.1.0",
+    "npm": "7.9.0"
+  },
+  "author": "Amin",
+  "license": "ISC",
+  "dependencies": {
+  
+  }
+}

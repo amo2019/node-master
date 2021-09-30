@@ -98,6 +98,18 @@ textarea {
   font-size: 18px;
 }
 
+.header ul li a:hover {
+  color: rgba(7, 245, 86, 0.8);
+}
+
+@media (max-width: 560px) {
+  .header ul li a {
+    font-weight: bold !important;
+    font-size: 14px;
+    color: rgba(245, 229, 7, 0.993);
+  }
+}
+
 .header ul li.loggedIn {
   display: none;
 }
@@ -123,8 +135,12 @@ body.loggedIn .header ul li.loggedOut {
 
 .header .logo img {
   width: 50px;
-  border: 2px solid rgb(120, 241, 120);
+  border: 4px solid rgb(120, 241, 120);
   border-radius: 50%;
+}
+
+.header .logo img:hover {
+  border: 4px solid rgb(223, 238, 18);
 }
 
 .content {
@@ -208,6 +224,10 @@ button.cta:visited {
 
 }
 
+.cta.blue:hover {
+  background-color: #365e9b !important;
+}
+
 #cta_blue:disabled {
   background: #999;
   color: #555;
@@ -219,6 +239,10 @@ button.cta:visited {
   background-color: #217844 !important;
 }
 
+.cta.green:hover {
+  background-color: #13582f !important;
+}
+
 #cta_green:disabled {
   background: #999;
   color: #555;
@@ -226,7 +250,12 @@ button.cta:visited {
 }
 
 .cta.red {
-  background-color: #c83737 !important;
+  position: relative;
+  background-color: #c92424 !important;
+}
+.cta.red:hover {
+  background-color: #f30909 !important;
+  color: gold;
 }
 
 .warning {

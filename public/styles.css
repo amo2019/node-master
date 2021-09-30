@@ -218,7 +218,10 @@ body {
 }
 
 .shop-item-image {
-  height: 250px;
+  height: 18rem;
+  width: 20rem;
+  image-rendering: pixelated;
+  object-fit: none;
 }
 
 .shop-item-details {
